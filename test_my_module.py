@@ -12,3 +12,8 @@ def test_printCsvVals():
 def test___init__():
     choose = mod.Chooser()   
     assert choose.vals == [1,2,3,4,5,6]
+
+def test_add():
+    x = 2
+    y = 5
+    assert mod.add(x,y) == 7

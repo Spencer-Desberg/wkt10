@@ -31,6 +31,9 @@ def printCsvVals(csvName = None, colName = None, rows= None):
         vals = vals.iloc[rows]
     return vals
 
+def add(x,y):
+    return x+y
+
 if __name__ == '__main__':
     #Chooser
     zoo_animals = Chooser(["tiger","elephant","gorilla","giraffe"])
